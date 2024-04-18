@@ -1,0 +1,11 @@
+image:
+  repository: "abhizeet/reactnew"
+  tag: v1
+replicaCount: 1
+
+
+service:
+  port: 80
+  targetPort: 8080
+  type: LoadBalancer
+
